@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    spring is used to allow dependency injection
+ -->
+<bean xmlns="">
+<!-- xml based config -->
+<bean id="vehicle" class="package-name">
+    <property name="" value=""></property>
+    <constructor-arg value=""></constructor-arg>
+</bean>
+
+<!-- Anotation based config -->
+<context:component-scan base-package=""></context:component-scan>
+</bean>
