@@ -1,6 +1,6 @@
-package Part_2;
+package com.example.JavaLab3.Part_2;
 
-import com.example.JavaLab3.Part_1.User;
+import com.example.JavaLab3.Domain.User;
 
 public interface UserRepositoryInterface {
 
